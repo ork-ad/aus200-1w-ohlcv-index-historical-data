@@ -1,10 +1,10 @@
 # AUS200 1w OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-104_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_779_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full AUS200 dataset on ork.ad**](https://ork.ad/)
 
-**AUS200 1w OHLCV Stock index historical data** — ultra high-quality 1w OHLCV for **Australia 200 Index**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**AUS200 1w OHLCV Stock index historical data** — ultra high-quality 1w OHLCV for **Australia 200**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,14 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 1w OHLCV** for **Australia 200 Index** (Stock index)
+- **Ultra high-quality 1w OHLCV** for **Australia 200** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1w`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **104** `1w` rows in the full archive
+- **Free evaluation sample** on GitHub (`1w`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **1,779** `1w` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1w` sample updated in sync
 
-> **Sample on GitHub** · `AUS200_1w.csv` (105 rows, `2024-07-01` → `2026-06-29`). **Full archive on [ork.ad](https://ork.ad/)** — **104** `1w` rows (~0.01 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2024-07-08` → `2026-06-29`.
+> **Sample on GitHub** · `AUS200_1w.csv` (105 rows, `2024-07-01` → `2026-06-29`). **Full archive on [ork.ad](https://ork.ad/)** — **1,779** `1w` rows (~0.09 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `1992-06-01` → `2026-06-29`.
 
 ## Download sample
 
@@ -42,11 +42,11 @@ Interactive chart & stats: **[https://ork-ad.github.io/aus200-1w-ohlcv-index-his
 
 | | **Sample (this repo)** | **Full dataset ([ork.ad](https://ork.ad/))** |
 |---|--:|---|
-| Instrument | Australia 200 Index · Stock index | Australia 200 Index · Stock index |
+| Instrument | Australia 200 · Stock index | Australia 200 · Stock index |
 | Timeframes | `1w` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1w rows | 105 | **104** |
-| Size | 0.01 MB | ~0.01 MB |
-| Period | `2024-07-01` → `2026-06-29` | `2024-07-08` → `2026-06-29` |
+| 1w rows | 105 | **1,779** |
+| Size | 0.01 MB | ~0.09 MB |
+| Period | `2024-07-01` → `2026-06-29` | `1992-06-01` → `2026-06-29` |
 | File | `AUS200_1w.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`AUS200_1w.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2024-07-01T00:00:00Z | 7731.037 | 7855.539 | 7682.477 | 7821.878 | 67283.0 |
-| 2024-07-08T00:00:00Z | 7821.878 | 8054.121 | 7771.778 | 8037.7 | 74326.0 |
-| 2024-07-15T00:00:00Z | 8037.7 | 8104.351 | 7898.309 | 7928.409 | 100949.0 |
-| 2024-07-22T00:00:00Z | 7928.409 | 8021.43 | 7838.388 | 7993.19 | 114536.0 |
-| 2024-07-29T00:00:00Z | 7993.19 | 8171.352 | 7748.837 | 7793.198 | 153311.0 |
+| 2024-07-01T00:00:00Z | 7756.52 | 7856.17 | 7683.09 | 7825.64 | 67490.0 |
+| 2024-07-08T00:00:00Z | 7825.64 | 8054.77 | 7772.4 | 8018.26 | 74301.0 |
+| 2024-07-15T00:00:00Z | 8018.26 | 8105.0 | 7898.94 | 7907.95 | 100969.0 |
+| 2024-07-22T00:00:00Z | 7907.95 | 8022.07 | 7839.01 | 7986.05 | 114429.0 |
+| 2024-07-29T00:00:00Z | 7986.05 | 8172.01 | 7749.45 | 7824.47 | 153006.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-06-01T00:00:00Z | 8707.237 | 8813.228 | 8484.965 | 8494.455 | 130261.0 |
-| 2026-06-08T00:00:00Z | 8494.455 | 8889.599 | 8490.525 | 8879.589 | 308625.0 |
-| 2026-06-15T00:00:00Z | 8879.589 | 8984.65 | 8768.578 | 8802.268 | 124554.0 |
-| 2026-06-22T00:00:00Z | 8802.268 | 8874.289 | 8714.107 | 8786.46 | 215184.0 |
+| 2026-06-01T00:00:00Z | 8719.14 | 8813.93 | 8485.6 | 8495.14 | 164625.0 |
+| 2026-06-08T00:00:00Z | 8495.14 | 8885.78 | 8491.21 | 8848.8 | 383521.0 |
+| 2026-06-15T00:00:00Z | 8848.8 | 8985.37 | 8769.3 | 8818.97 | 153353.0 |
+| 2026-06-22T00:00:00Z | 8818.97 | 8875.0 | 8714.8 | 8795.92 | 267574.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **AUS200** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **104** rows at `1w`, plus all other timeframes in the same ZIP.
+The complete **AUS200** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **1,779** rows at `1w`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full AUS200 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · AUS200 1w OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-03 UTC*
+*GetData · AUS200 1w OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-05 UTC*
